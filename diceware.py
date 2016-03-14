@@ -61,4 +61,5 @@ def main():
 	password = generator.create_passphrase(number)
 	print password
 
-main()
+if __name__ == '__main__':
+	main()
